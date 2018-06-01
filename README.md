@@ -41,3 +41,55 @@ Figure 3. A sketch of the location detail page.
 
 ![a pen and pencil sketch of the mission statement page](./src/mission-page.jpg)
 Figure 4. A sketch of the mission statement page.
+
+### Wireframes
+
+#### Desktop version
+
+![Sketch screenshot of homepage](./sketchshots/web-home.png)
+Figure 5. A screenshot of splash page made in Sketch.
+
+![Sketch screenshot of venues list](./sketchshots/web-venues.png)
+Figure 6. A screenshot of the Venues page made in Sketch
+
+![Sketch screenshot of venue details page](./sketchshots/web-venue.png)
+Figure 7. A screenshot of the venue detail page.
+
+![Sketch screenshot of the About Us page](./sketchshots/web-us.png)
+Figure 8. A screenshot of the founder biography page/mission statement page.
+
+![Sketch of the event calendar](./sketchshots/web-cal.png)
+Figure 9. A screenshot of the calendar with nothing on it.
+
+![sketch of the contact us page](./sketchshots/web-contact.png)
+Figure 10. The contact us page.
+
+#### Mobile version
+
+![Mobile homepage](./sketchshots/mobile-home.png)
+Figure 11. The mobile home page.
+
+![mobile venues page](./sketchshots/mobile-venue.png)
+Figure 12. The mobile venue page.
+
+![mobile calendar page](./sketchshots/mobile-cal.png)
+Figure 13. The mobile calendar page.
+
+![mobile contact page](./sketchshots/mobile-contact.png)
+Figure 14. The mobile contact page.
+
+### Setup Instructions
+
+None applicable thus far.
+
+### Technologies Used
+ - Sketch 3
+ - Pixlr photo editor
+
+### Future features
+
+6/1/2018 - currently have plans to code this into a functional website next week. I'd also like to revise the website contact page because I'm dissatisfied with the design.
+
+### Licenses
+
+Copyright 2018 by Ami Cooper AKA github.com/amiraine
