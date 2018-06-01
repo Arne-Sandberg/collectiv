@@ -31,3 +31,13 @@ I'd like to add bolder accent colors in my design to accentuate the colors in th
 ### Sketches
 
 ![a pen and pencil sketch of the splash page of the website](./src/splash-page.jpg)
+Figure 1. A sketch of the splash page.
+
+![a pen and pencil sketch of the locations main page](./src/location-page.jpg)
+Figure 2. A sketch of the location main page. Omitted from the sketch: space between the slideshow div and the location link div that would show the background pattern.
+
+![a pen and pencil sketch of location detail page](./src/location-detail.jpg)
+Figure 3. A sketch of the location detail page.
+
+![a pen and pencil sketch of the mission statement page](./src/mission-page.jpg)
+Figure 4. A sketch of the mission statement page.
