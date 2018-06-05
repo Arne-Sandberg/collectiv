@@ -2,10 +2,30 @@
 // all imports
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500|Raleway:400,600,700');
 @import './vars';
-
+@import './mixins';
 *{
   margin:0;
   padding: 0;
   text-decoration: none;
   color: white;
+}
+body{
+  background-color: #E1f9Fe;
+  background-image:radial-gradient(circle at 100% 150%, #E1F9FE 24%, white 25%, white 28%, #E1F9FE 29%, #E1F9FE 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, #E1F9FE 24%, white 25%, white 28%, #E1F9FE 29%, #E1F9FE 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, #E1F9FE 11%, #E1F9FE 23%, white 24%, white 30%, #E1F9FE 31%, #E1F9FE 43%, white 44%, white 50%, #E1F9FE 51%, #E1F9FE 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, #E1F9FE 6%, #E1F9FE 15%, white 16%, white 20%, #E1F9FE 21%, #E1F9FE 30%, white 31%, white 35%, #E1F9FE 36%, #E1F9FE 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, #E1F9FE 6%, #E1F9FE 15%, white 16%, white 20%, #E1F9FE 21%, #E1F9FE 30%, white 31%, white 35%, #E1F9FE 36%, #E1F9FE 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+}
+.container{
+  background-color: rgba(0,0,0,.5);
+  width: 67vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw 2vh;
+  border-radius: 3px;
+}
+.active{
+  border-bottom: 5px solid #06cdae;
 }
