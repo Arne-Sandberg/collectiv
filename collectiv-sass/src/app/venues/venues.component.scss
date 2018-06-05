@@ -1,0 +1,20 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card{
+    max-width: 20vw;
+    text-align: center;
+    padding: 10px;
+  }
+  img{
+    width: 20vw;
+    clip-path: circle(40%);
+  }
+  h2{
+    font-family: $poppin;
+  }
+}
