@@ -1,5 +1,5 @@
 <div class="container">
-  <div *ngFor="let venue of venuelist" class="card">
+  <div *ngFor="let venue of venuelist" (click)="goToDetailPage(venue)" class="card">
     <img src="{{venue.image}}">
     <h2>{{venue.location}}</h2>
   </div>

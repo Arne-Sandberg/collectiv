@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
 import { VenuesComponent } from './venues/venues.component';
+import { VenueDetailComponent } from './venue-detail/venue-detail.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { VenuesComponent } from './venues/venues.component';
     ContactComponent,
     EventsComponent,
     HomeComponent,
-    VenuesComponent
+    VenuesComponent,
+    VenueDetailComponent
   ],
   imports: [
     BrowserModule,

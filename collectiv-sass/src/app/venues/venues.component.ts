@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Venue } from '../venue.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-venues',
@@ -8,7 +9,7 @@ import { Venue } from '../venue.model';
 })
 export class VenuesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -18,4 +19,7 @@ export class VenuesComponent implements OnInit {
     new Venue("Downtown", "Our downtown office is a great choice for working, as it provides the comfort and inspiring atmosphere of our other venues while also being within walking distance of other corporate offices and buildings and dozens of food carts","../assets/workspace-downtown.jpg", 3),
     new Venue("Pearl District", "The Pearl District, located in the northwest quadrant of town is a popular and hip neighborhood","../assets/workspace-pear.jpeg",4)
   ]
+  goToDetailPage(clickedVenue: Venue){
+    this.router.navigate(['venues',clickedVenue.id])
+  };
 }

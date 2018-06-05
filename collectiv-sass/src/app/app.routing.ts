@@ -5,6 +5,7 @@ import { VenuesComponent } from './venues/venues.component';
 import { AboutComponent } from './about/about.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
+import {VenueDetailComponent} from './venue-detail/venue-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -14,6 +15,10 @@ const appRoutes: Routes = [
   {
     path: 'venues',
     component: VenuesComponent,
+  },
+  {
+    path: 'venues/:id',
+    component: VenueDetailComponent
   },
   {
     path: 'about',
