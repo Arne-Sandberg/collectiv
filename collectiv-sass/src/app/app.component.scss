@@ -1,0 +1,46 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+
+.nav{
+  height: $header-height;
+  width: $full-width;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 40px;
+  img{
+    @include logo;
+  }
+}
+
+#link-wrapper{
+  display: flex;
+  justify-content: space-between;
+  .nav-link{
+    line-height: $header-height;
+    height: $header-height;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    @include default-font;
+    font-size: calc(100% + .5em);
+  }
+}
+#page-fold {
+	width: 0;
+	height: 0;
+	border-top: 200px solid $coral;
+	border-left: 200px solid transparent;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#corner-logo{
+  @include logo;
+  z-index:2;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
