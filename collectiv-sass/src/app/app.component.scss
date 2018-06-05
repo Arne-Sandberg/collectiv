@@ -23,8 +23,13 @@
     height: $header-height;
     padding-left: 4vw;
     padding-right: 4vw;
-    @include default-font;
+    font-family: $poppin;
     font-size: calc(100% + .5em);
+  }
+}
+.nav-link:hover{
+  a{
+    color:#06cdae;
   }
 }
 #page-fold {

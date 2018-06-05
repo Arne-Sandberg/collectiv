@@ -1,0 +1,54 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+
+.container{
+  height: 400px;
+  img{
+    clip-path: circle(40%);
+    max-width: 28vw;
+    max-height: 320px;
+    float: left;
+    margin-bottom: 30px;
+  }
+  .standard{
+    font-family: $poppin;
+    font-size: $big-text;
+    font-weight: 300;
+  }
+  .bold{
+    font-family: $poppin;
+    font-size: $big-text;
+    font-weight: minmax(500,600);
+  }
+  .light{
+    font-family: $poppin;
+    font-size: $small-text;
+    font-weight: 300;
+  }
+}
+.centered{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#right-align{
+  float: right;
+}
+.container{
+  .raleway-title{
+    font-family: $raleway;
+    font-size: calc(100% + 2em);
+  }
+  .raleway-p{
+    font-family: $raleway;
+    font-size: $small-text;
+    text-align: right;
+  }
+  .raleway-emp{
+    font-family: $raleway;
+    font-size: $big-text;
+    text-align: center;
+  }
+}
