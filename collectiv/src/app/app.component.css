@@ -27,9 +27,6 @@
   display: flex;
   justify-content: space-between;
 }
-.logo{
-
-}
 .nav{
   margin-top: 35px;
   background-color: #D8D8D8;
@@ -40,4 +37,12 @@
   justify-content: flex-start;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+.nav-link{
+  line-height: 100px;
+  height: 100px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(100% + .75em);
 }
