@@ -1,3 +1,6 @@
-<p>
-  venues works!
-</p>
+<div class="container">
+  <div *ngFor="let venue of venuelist" class="card">
+    <img src="{{venue.image}}">
+    <h2>{{venue.location}}</h2>
+  </div>
+</div>
