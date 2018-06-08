@@ -70,8 +70,9 @@ I'd like to add bolder accent colors in my design to accentuate the colors in th
 
 ### Future features
 
-6/1/2018 - currently have plans to code this into a functional website next week. I'd also like to revise the website contact page because I'm dissatisfied with the design.
-6/8/2018 - I'd like to get the images to sit outside of their container divs while not ruining the responsiveness of the page and come up with a better color scheme and background. Add in/create a better calendar instead of using an embedded image.
+* 6/1/2018 - currently have plans to code this into a functional website next week. I'd also like to revise the website contact page because I'm dissatisfied with the design.
+* 6/8/2018 - I'd like to get the images to sit outside of their container divs while not ruining the responsiveness of the page and come up with a better color scheme and background. Add in/create a better calendar instead of using an embedded image. fix the email icon. change all of the icons to white (use svg instead of png).
+Would also like to smooth out the transitions between media query breakpoints. 
 
 ### Licenses
 
