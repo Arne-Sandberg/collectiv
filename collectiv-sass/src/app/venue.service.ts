@@ -9,4 +9,11 @@ export class VenueService {
   getVenues(){
     return venuelist;
   }
+  getVenueById(venueId:number){
+    for(var i = 0; i<= venuelist.length - 1; i++){
+      if (venuelist[i].id === venueId){
+        return venuelist[i];
+      }
+    }
+  }
 }

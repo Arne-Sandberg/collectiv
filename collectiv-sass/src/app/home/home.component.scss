@@ -4,11 +4,8 @@
 .container{
   height: 400px;
   img{
-    clip-path: circle(40%);
-    max-width: 28vw;
-    max-height: 320px;
+    @include circle-image;
     float: left;
-    margin-bottom: 30px;
   }
   .standard{
     font-family: $poppin;

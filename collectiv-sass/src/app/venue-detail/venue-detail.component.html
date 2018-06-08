@@ -1,7 +1,21 @@
 <div class="container">
-  <h2><a routerLink="venues"> < Go back</a></h2>
+  <h2><a routerLink="venues/"> < Go back</a></h2>
   <div class="venue-content">
-
+    <img src="{{venueDisplayed.image}}">
+    <h1>{{venueDisplayed.location}}</h1>
+    <h3>{{venueDisplayed.description}}</h3>
+    <br>
+    <hr>
+    <h3>Amenities</h3>
+    <ul>
+      <li>Coffee bar</li>
+      <li>Fiber-Optic internet</li>
+      <li>Technical support from 8am to 5pm every day</li>
+    </ul>
+    <br>
+    <hr>
+    <h2>Monthly rates</h2>
+    <p>$100 - access to all common spaces ~ $200 - shared office ~ $300 - private office</p>
   </div>
 </div>
 <!-- back button doesnt' work fix it lol -->

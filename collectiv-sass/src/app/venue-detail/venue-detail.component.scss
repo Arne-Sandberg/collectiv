@@ -1,0 +1,10 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+
+.venue-content{
+  font-family: $poppin;
+}
+img{
+  @include circle-image;
+  float: right;
+}

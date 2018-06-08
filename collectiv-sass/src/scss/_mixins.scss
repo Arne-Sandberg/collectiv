@@ -1,4 +1,9 @@
-
+@mixin circle-image{
+  clip-path: circle(40%);
+  max-width: 28vw;
+  max-height: 320px;
+  margin-bottom: 30px;
+}
 
 @mixin panel-body{
   background: {
