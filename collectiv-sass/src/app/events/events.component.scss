@@ -1,7 +1,50 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+
+
 .fwd{
   display: flex;
   justify-content: space-between;
 }
 img{
   width:65vw;
+}
+.mobile{
+  display: none;
+}
+@media screen and (max-width:375px){
+  .container{
+    display: none;
+  }
+  .mobile{
+    display: grid;
+    grid-column-gap: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 20vh auto;
+    height: 50vh;
+  }
+  .header{
+    background-color: $coral;
+    h1{
+      font-family: $poppin;
+      text-align: center;
+    }
+    h4{
+      font-family: $poppin;
+      text-align: center;
+    }
+    span{
+      text-decoration: underline;
+    }
+  }
+  .day{
+    width: 31vw;
+    border-radius: 5px;
+    font-family: $raleway;
+    background-color: #06cdae;
+    text-align: center;
+    height: 50vh;
+  }
 }

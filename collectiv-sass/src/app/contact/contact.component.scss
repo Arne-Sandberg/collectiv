@@ -29,3 +29,17 @@ img:hover{
     transform: rotate(360deg);
   }
 }
+.mobile{
+  display: none;
+}
+@media screen and (max-width:375px){
+  .container{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    font-family: $poppin;
+    justify-content: center;
+    align-content: center;
+  }
+}
