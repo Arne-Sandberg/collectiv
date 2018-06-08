@@ -4,3 +4,15 @@
     <h2>{{venue.location}}</h2>
   </div>
 </div>
+<div class="mobile" id="selected">
+  <h1>Portland, Oregon</h1>
+</div>
+<div class="sub-head" *ngFor="let venue of venuelist" (click)="goToDetailPage(venue)">
+  <h1>{{venue.location}}</h1>
+</div>
+<div class="mobile">
+  <h1>Austin, Texas</h1>
+</div>
+<div class="mobile">
+  <h1>New York, New York</h1>
+</div>

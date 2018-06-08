@@ -18,3 +18,33 @@
     font-family: $poppin;
   }
 }
+.mobile{
+  display: none;
+}
+.sub-head{
+  display: none;
+}
+@media screen and (max-width: 375px){
+  .container{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin-bottom: 0;
+    font-family: $poppin;
+  }
+  #selected{
+    h1{
+      color: #06cdae;
+    }
+  }
+  .sub-head{
+    display: block;
+    background-color: rgba(0,183,168,.5);
+    padding: 2vw;
+    margin-left: 15vw;
+    margin-right: 3vh;
+    border-bottom: 1px solid white;
+    font-family: $raleway;
+  }
+}

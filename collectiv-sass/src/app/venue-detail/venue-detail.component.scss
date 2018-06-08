@@ -9,3 +9,12 @@ img{
   max-width: 28vw;
   float: right;
 }
+
+@media screen and (max-width:375px){
+  img{
+    display: none;
+  }
+  .container{
+    font-size: 90%;
+  }
+}

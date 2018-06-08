@@ -61,9 +61,6 @@
   }
   .mobile{
     display: block;
-    padding: 1vh 1vh 2vh 1vw;
-    margin: 3vh;
-    background-color: rgba(0,0,0,.5);
   }
   img{
     @include circle-image;
