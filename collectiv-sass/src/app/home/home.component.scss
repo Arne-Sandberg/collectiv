@@ -54,6 +54,23 @@
   display: none;
 }
 //media query
+@media screen and (max-width: 768px){
+  .container{
+    height: 50vh;
+  }
+  .container:nth-child(2){
+    height:60vh;
+  }
+  .standard{
+    font-size: calc(100%)!important;
+  }
+  .bold{
+    font-size: calc(100% + .25em)!important;
+  }
+  .raleway-p{
+    font-size: calc(100%)!important;
+  }
+}
 
 @media screen and (max-width: 375px){
   .container{

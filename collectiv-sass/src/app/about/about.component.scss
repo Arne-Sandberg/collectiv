@@ -11,5 +11,9 @@ h2{
 }
 img{
   @include circle-image;
+  max-width: 20vw;
   float: left;
+}
+p{
+  font-size: calc(100% + .4em);
 }
