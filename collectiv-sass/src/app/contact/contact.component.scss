@@ -1,0 +1,31 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+.container{
+  display: flex;
+  justify-content: space-between;
+  font-family: $poppin;
+}
+img{
+  max-width: 10vw;
+  border: 5px solid black;
+  border-radius: 50%;
+  padding: 40px;
+}
+.wrap{
+  text-align: center;
+}
+
+img:hover{
+  animation-name: spin;
+  animation-duration:500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

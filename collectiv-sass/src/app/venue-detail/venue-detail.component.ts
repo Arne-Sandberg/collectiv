@@ -22,5 +22,7 @@ export class VenueDetailComponent implements OnInit {
     });
     this.venueDisplayed = this.venueService.getVenueById(this.venueId);
   }
-
+  goBack(){
+    this.location.back();
+  }
 }

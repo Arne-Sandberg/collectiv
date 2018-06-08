@@ -1,0 +1,15 @@
+@import '~scss/vars';
+@import '~scss/mixins';
+.about{
+  font-family: $raleway;
+}
+h1{
+  text-align: right;
+}
+h2{
+  text-align: right;
+}
+img{
+  @include circle-image;
+  float: left;
+}

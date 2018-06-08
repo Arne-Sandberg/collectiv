@@ -1,5 +1,5 @@
 <div class="container">
-  <h2><a routerLink="venues/"> < Go back</a></h2>
+  <h2 (click)="goBack()">< Go back</h2>
   <div class="venue-content">
     <img src="{{venueDisplayed.image}}">
     <h1>{{venueDisplayed.location}}</h1>
@@ -18,4 +18,3 @@
     <p>$100 - access to all common spaces ~ $200 - shared office ~ $300 - private office</p>
   </div>
 </div>
-<!-- back button doesnt' work fix it lol -->

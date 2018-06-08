@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Venue } from '../venue.model';
 import { Router } from '@angular/router';
 import { VenueService } from '../venue.service';
+import { venuelist } from '../venue-list'
 
 @Component({
   selector: 'app-venues',
