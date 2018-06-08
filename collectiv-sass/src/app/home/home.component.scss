@@ -5,6 +5,7 @@
   height: 400px;
   img{
     @include circle-image;
+    max-width: 28vw;
     float: left;
   }
   .standard{
@@ -49,11 +50,39 @@
     text-align: center;
   }
 }
-
+.mobile{
+  display: none;
+}
 //media query
 
 @media screen and (max-width: 375px){
   .container{
     display: none;
+  }
+  .mobile{
+    display: block;
+    padding: 1vh 1vh 2vh 1vw;
+    margin: 3vh;
+    background-color: rgba(0,0,0,.5);
+  }
+  img{
+    @include circle-image;
+    max-width: 40vw;
+    float: left;
+  }
+  h4{
+    font-family: $raleway;
+  }
+  h2{
+    font-family: $poppin;
+  }
+  .sub{
+    text-align: center;
+  }
+  p{
+    font-family: $raleway;
+  }
+  li{
+    font-family: $raleway;
   }
 }
