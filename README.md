@@ -29,58 +29,40 @@ Both of these sites appear to utilize a more minimalistic approach to their desi
 I'd like to add bolder accent colors in my design to accentuate the colors in the photos of the workspace while still making the site sleek and easy to use.
 
 ### Sketches
+| Page        | sketch  |
+| ------------- | ----- |
+| Homepage      | <img src="./src/splash-page.jpg" width=500px> |
+| Venues      | <img src="./src/location-page.jpg" width=500px> |
+| Venue detail | <img src="./src/location-detail.jpg" width=500px> |
+| Mission statement | <img src="./src/mission-page.jpg" width=500px> |
 
-![a pen and pencil sketch of the splash page of the website](./src/splash-page.jpg)
-Figure 1. A sketch of the splash page.
-
-![a pen and pencil sketch of the locations main page](./src/location-page.jpg)
-Figure 2. A sketch of the location main page. Omitted from the sketch: space between the slideshow div and the location link div that would show the background pattern.
-
-![a pen and pencil sketch of location detail page](./src/location-detail.jpg)
-Figure 3. A sketch of the location detail page.
-
-![a pen and pencil sketch of the mission statement page](./src/mission-page.jpg)
-Figure 4. A sketch of the mission statement page.
 
 ### Wireframes
 
 #### Desktop version
-
-![Sketch screenshot of homepage](./sketchshots/web-home.png)
-Figure 5. A screenshot of splash page made in Sketch.
-
-![Sketch screenshot of venues list](./sketchshots/web-venues.png)
-Figure 6. A screenshot of the Venues page made in Sketch
-
-![Sketch screenshot of venue details page](./sketchshots/web-venue.png)
-Figure 7. A screenshot of the venue detail page.
-
-![Sketch screenshot of the About Us page](./sketchshots/web-us.png)
-Figure 8. A screenshot of the founder biography page/mission statement page.
-
-![Sketch of the event calendar](./sketchshots/web-cal.png)
-Figure 9. A screenshot of the calendar with nothing on it.
-
-![sketch of the contact us page](./sketchshots/web-contact.png)
-Figure 10. The contact us page.
-
+| Page        | Wireframe  |
+| ------------- | ----- |
+| Homepage      | <img src="./sketchshots/web-home.png" width=500px> |
+| Venues      | <img src="./sketchshots/web-venues.png" width=500px> |
+| Venue detail | <img src="./sketchshots/web-venue.png" width=500px> |
+| About Us | <img src="./sketchshots/web-us.png" width=500px> |
+| Events | <img src="./sketchshots/web-cal.png" width=500px> |
+| Contact | <img src="./sketchshots/web-contact.png" width=500px> |
 #### Mobile version
+| Page        | Wireframe  |
+| ------------- | ----- |
+| Homepage      | <img src="./sketchshots/mobile-home.png" width=200px> |
+| Venues      | <img src="./sketchshots/mobile-venue.png" width=200px> |
+| Events | <img src="./sketchshots/mobile-cal.png" width=200px> |
+| Contact | <img src="./sketchshots/mobile-contact.png" width=200px> |
 
-![Mobile homepage](./sketchshots/mobile-home.png)
-Figure 11. The mobile home page.
-
-![mobile venues page](./sketchshots/mobile-venue.png)
-Figure 12. The mobile venue page.
-
-![mobile calendar page](./sketchshots/mobile-cal.png)
-Figure 13. The mobile calendar page.
-
-![mobile contact page](./sketchshots/mobile-contact.png)
-Figure 14. The mobile contact page.
 
 ### Setup Instructions
-
-None applicable thus far.
+  1. Clone repository from (https://github.com/amiraine/co-working.git)
+  2. navigate to collectiv-sass directory within your terminal using `cd collectiv-sass`
+  3. run `npm install`. If you do not have angularCLI installed, also run `npm install -g @angular/cli@1.6.5`
+  4. to view site on live development server, run `ng serve --open`
+  5. if editing in Sketch 3, you may also install the fonts Poppins and Raleway from Google fonts or from the attached fonts folder.
 
 ### Technologies Used
  - Sketch 3
@@ -89,6 +71,7 @@ None applicable thus far.
 ### Future features
 
 6/1/2018 - currently have plans to code this into a functional website next week. I'd also like to revise the website contact page because I'm dissatisfied with the design.
+6/8/2018 - I'd like to get the images to sit outside of their container divs while not ruining the responsiveness of the page and come up with a better color scheme and background. Add in/create a better calendar instead of using an embedded image.
 
 ### Licenses
 
