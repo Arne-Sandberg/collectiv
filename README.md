@@ -67,6 +67,7 @@ I'd like to add bolder accent colors in my design to accentuate the colors in th
 ### Technologies Used
  - Sketch 3
  - Pixlr photo editor
+ - Angular 2
 
 ### Future features
 
